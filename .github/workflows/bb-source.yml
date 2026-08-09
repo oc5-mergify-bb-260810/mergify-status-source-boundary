@@ -1,0 +1,12 @@
+name: BB Source App Check
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  source:
+    name: BB_EXPECTED_APP_CHECK_20260810_A47D
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo expected-app-ok
+
