@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: BB status source boundary
+    conditions:
+      - title = BB status source gate canary
+    actions:
+      merge:
+        method: merge
