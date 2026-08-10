@@ -5,9 +5,3 @@ pull_request_rules:
       - "#commits-behind > 0"
     actions:
       update:
-  - name: BB delete fork head collision
-    conditions:
-      - merged
-      - title = BB delete head fork collision canary 20260810
-    actions:
-      delete_head_branch:
