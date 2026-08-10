@@ -1,7 +1,0 @@
-pull_request_rules:
-  - name: BB fork update maintainer opt-out
-    conditions:
-      - title = BB fork update maintainer optout L2F7
-      - "#commits-behind > 0"
-    actions:
-      update:
