@@ -5,3 +5,8 @@ pull_request_rules:
       - "#commits-behind > 0"
     actions:
       update:
+  - name: BB fork rebase repository identity
+    conditions:
+      - title = BB fork rebase collision canary 20260810
+    actions:
+      rebase:
