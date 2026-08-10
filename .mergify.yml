@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: BB squash fork repository identity
+    conditions:
+      - title = BB squash fork collision A61D
+    actions:
+      squash:
+        commit_message: title+body
