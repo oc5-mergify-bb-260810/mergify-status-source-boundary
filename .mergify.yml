@@ -1,7 +1,0 @@
-pull_request_rules:
-  - name: BB fork update repository identity
-    conditions:
-      - title = BB fork update canary
-      - "#commits-behind > 0"
-    actions:
-      update:
